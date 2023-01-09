@@ -120,26 +120,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias cc="cargo clippy"
-alias cb="cargo build"
-alias cr="cargo run"
-alias ct="cargo test"
-alias cu="cargo update"
-alias cnt="cargo nextest run --final-status-level fail --failure-output final --status-level fail"
-
-alias cl="clear"
-
-alias xcp="xclip -selection clipboard"
-alias pwcp="pwd | xcp"
-
-alias kbfix="setxkbmap us && xmodmap ~/.Xmodmap"
-
-alias redx="redshift -x"
-alias safeE="safeeyes -e"
-alias safeD="safeeyes -d"
-
-# alias joplin="~/.joplin/Joplin.AppImage"
-
-redset() {
-  redshift -O $1
-}
+source ~/.aliases
