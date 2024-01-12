@@ -1,0 +1,8 @@
+require "ignacio.plugins.packer"
+require "ignacio.plugins.telescope"
+require "ignacio.plugins.treesitter"
+require "ignacio.plugins.autopairs"
+require "ignacio.plugins.comment"
+require "ignacio.plugins.nvim_tree"
+require "ignacio.plugins.alpha"
+require "ignacio.plugins.float_term"
